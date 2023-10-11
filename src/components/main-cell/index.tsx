@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 
 function MainCell({name, link, logo, logoName}: MainData) {
     return (
-        <Link className={styles.container} to={`/${link}`}>
+        <Link className={styles.container} to={`${link}`}>
             <h2 className={styles.header}>{name}</h2>
             <img className={styles.image} src={logo} alt={logoName}/>
         </Link>
