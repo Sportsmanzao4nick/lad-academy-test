@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lad-academy-test/static/css/main.61e075f9.css",
-    "main.js": "/lad-academy-test/static/js/main.ebebc257.js",
+    "main.js": "/lad-academy-test/static/js/main.3ec4190e.js",
     "static/js/787.93b094b8.chunk.js": "/lad-academy-test/static/js/787.93b094b8.chunk.js",
     "static/media/SBSansInterface-Regular.woff2": "/lad-academy-test/static/media/SBSansInterface-Regular.b8dc05e02a26de192f04.woff2",
     "static/media/SBSansInterface-Semibold.woff2": "/lad-academy-test/static/media/SBSansInterface-Semibold.96014bf8703895b0656b.woff2",
@@ -12,11 +12,11 @@
     "static/media/alcoholic.svg": "/lad-academy-test/static/media/alcoholic.027636e623928944b46f00e2da475452.svg",
     "index.html": "/lad-academy-test/index.html",
     "main.61e075f9.css.map": "/lad-academy-test/static/css/main.61e075f9.css.map",
-    "main.ebebc257.js.map": "/lad-academy-test/static/js/main.ebebc257.js.map",
+    "main.3ec4190e.js.map": "/lad-academy-test/static/js/main.3ec4190e.js.map",
     "787.93b094b8.chunk.js.map": "/lad-academy-test/static/js/787.93b094b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61e075f9.css",
-    "static/js/main.ebebc257.js"
+    "static/js/main.3ec4190e.js"
   ]
 }
