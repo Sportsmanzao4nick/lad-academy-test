@@ -1,0 +1,50 @@
+.container {
+    border: 5px solid #9FC088;
+    border-radius: 70px;
+    padding: 1vw;
+    width: calc(180px + 4vw);
+}
+
+.image {
+    width: calc(180px + 2vw);
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 48px;
+}
+
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    .container {
+        border-radius: 50px;
+        width: calc(140px + 2vw);
+    }
+
+    .image {
+        width: calc(120px + 2vw);
+    }
+
+    .header {
+        height: 36px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .container {
+        border-radius: 30px;
+        width: calc(100px + 10vw);
+    }
+
+    .image {
+        width: calc(90px + 10vw);
+    }
+
+    .header {
+        height: 26px;
+    }
+
+}

@@ -1,13 +1,119 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    background-color: #eff2f6;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 32px;
+    color: #44403CFF;
+    font-family: 'SB Sans Interface', Arial, sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+    line-height: 24px;
+    margin: 12px 0;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin: 12px 0;
+}
+
+@font-face {
+    font-family: 'SB Sans Display';
+    src: url('./assets/fonts/SBSansDisplayRegular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SB Sans Display';
+    src: url('./assets/fonts/SBSansDisplaySemiBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SB Sans Interface';
+    src: url('./assets/fonts/SBSansInterface-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SB Sans Interface';
+    src: url('./assets/fonts/SBSansInterface-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    body {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        line-height: 18px;
+        margin: 10px 0;
+    }
+
+    h4 {
+        font-size: 1.1em;
+        margin: 10px 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.15em;
+        line-height: 16px;
+        margin: 8px 0;
+    }
+
+    h4 {
+        font-size: 1.05em;
+        margin: 8px 0;
+    }
+
 }

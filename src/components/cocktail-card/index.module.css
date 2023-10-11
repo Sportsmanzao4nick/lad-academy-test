@@ -1,0 +1,40 @@
+.wrapper {
+    margin: 0 auto;
+    width: calc(400px + 12vw);
+}
+
+.image {
+    width: calc(400px + 12vw);
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.infoItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: space-between;
+    text-align: initial;
+}
+
+.instructions {
+    text-align: initial;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: calc(220px + 14vw);
+    }
+
+    .image {
+        width: calc(220px + 14vw);
+    }
+
+}

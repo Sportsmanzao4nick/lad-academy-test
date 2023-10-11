@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    color: #44403CFF;
+    margin: 1vh 1vw;
+}

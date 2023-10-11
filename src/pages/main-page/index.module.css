@@ -1,0 +1,4 @@
+.cells {
+    display: flex;
+    justify-content: space-around;
+}
