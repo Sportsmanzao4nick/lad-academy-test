@@ -5,6 +5,7 @@ import MainPage from "../../pages/main-page";
 import AlcoholicCocktailsPage from "../../pages/alcoholic-cocktails-page";
 import CocktailPage from "../../pages/cocktail-page";
 import NonAlcoholicCocktailsPage from "../../pages/non-alcoholic-cocktails-page";
+import SearchCocktailsByIngredientPage from "../../pages/search-cocktails-by-ingredient-page";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -12,6 +13,8 @@ const router = createBrowserRouter(
             <Route index element={<MainPage/>}/>
             <Route path="alcoholic" element={<AlcoholicCocktailsPage/>}/>
             <Route path="non_alcoholic" element={<NonAlcoholicCocktailsPage/>}/>
+            <Route path=":ingredient" element={<SearchCocktailsByIngredientPage/>}/>
+            <Route path=":ingredient/:id" element={<CocktailPage/>}/>
             <Route path="alcoholic/:id" element={<CocktailPage/>}/>
             <Route path="non_alcoholic/:id" element={<CocktailPage/>}/>
         </Route>

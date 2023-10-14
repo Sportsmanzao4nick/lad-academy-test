@@ -1,0 +1,55 @@
+.wrapper {
+    padding: 3vh 1vw;
+}
+
+.input {
+    color: #44403CFF;
+    border: 5px solid #9FC088;
+    border-radius: 70px;
+    font-family: 'SB Sans Interface', Arial, sans-serif;
+    font-size: 1em;
+    padding: 1vw;
+    width: calc(250px + 10vw);
+}
+
+input:focus {
+    border: 5px solid #44403CFF;
+    outline:none;
+}
+
+.button {
+    background-color: #ffffff;
+    border: 5px solid #9FC088;
+    border-radius: 70px;
+    cursor: pointer;
+    font-family: 'SB Sans Interface', Arial, sans-serif;
+    font-size: 1em;
+    margin-left: 1vw;
+    padding: 1vw;
+    vertical-align: middle;
+}
+
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    .input {
+        border-radius: 50px;
+        width: calc(200px + 2vw);
+
+    }
+
+    .button {
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .input {
+        border-radius: 30px;
+        width: calc(100px + 10vw);
+
+    }
+
+    .button {
+        border-radius: 30px;
+    }
+}
