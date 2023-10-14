@@ -2,19 +2,17 @@
 
 Задание по разработке приложения на React для Frontend-стажировки
 
-Написать полноценное SPA (single page application) приложение (например блог, интернет магазин, админ панель, сайт визитка или любое другое веб-приложение), которое должно удовлетворять следующим условиям:
+Реализован следующий функционал:
 <ul>
-<li>Стек React (или NextJS)</li>
+<li>Стек React</li>
 <li>Функциональные компоненты, React-hooks</li>
-<li>Модульные стили или styled-components</li>
-<li>Роутинг React-router-dom или NextJS</li>
-<li>Redux/ReduxToolKit. Асинхронные экшены Redux-thunk или Redux-saga</li>
-<li>Работа с API с помощью клиента Axios (можно использовать любое открытое API, либо свой вариант)</li>
-<li>Адаптивность - приложение должно корректно выглядеть на всех типах устройств (mobile, tablet, desktop, retina)</li>
-<li>Деплой приложения (gh-pages, vercel, heroku.com, fly.io).</li>
+<li>Модульные стили</li>
+<li>Роутинг React-router-dom</li>
+<li>ReduxToolKit. Асинхронные экшены Redux-thunk </li>
+<li>Работа с API с помощью клиента Axios </li>
+<li>Адаптивность - приложение корректно выглядит на всех типах устройств (mobile, tablet, desktop, retina)</li>
+<li>Деплой приложения (gh-pages).</li>
 </ul>
-
-Дизайн, верстка и функциональная часть оставляем на ваш выбор.
 
 In the project directory, you can run:
 
